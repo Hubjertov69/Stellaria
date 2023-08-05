@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "stellariamod1",
+  "version": "${version}",
+  "name": "StellariaMod1",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Hubert/StellariaMod1"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/stellariamod1/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.stellaris.stellariamod1.client.StellariaModClient"
+    ],
+    "main": [
+      "org.stellaris.stellariamod1.StellariaMain"
+    ]
+  },
+  "mixins": [
+    "stellariamod1.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
