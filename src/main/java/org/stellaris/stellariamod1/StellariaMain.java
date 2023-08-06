@@ -3,7 +3,7 @@ package org.stellaris.stellariamod1;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.stellaris.stellariamod1.enchantments.Enchantment;
+import org.stellaris.stellariamod1.block.ModBlocks;
 import org.stellaris.stellariamod1.items.ModItems;
 
 public class StellariaMain implements ModInitializer {
@@ -14,7 +14,7 @@ public class StellariaMain implements ModInitializer {
     public void onInitialize() {
 
         ModItems.registerModItems();
-        ModBlocks.registerModBLocks();
+        ModBlocks.registerModBlocks();
 
 
     }

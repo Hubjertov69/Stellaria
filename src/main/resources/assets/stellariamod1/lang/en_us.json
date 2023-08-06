@@ -120,6 +120,8 @@
 
   "item.stellariamod1.wire": "Wire",
 
+  "block.stellariamod1.metal_wall": "Metal Wall",
+
   "itemGroup.stellariamod1.elements": "Elements",
   "itemGroup.stellariamod1.components": "Components",
   "itemGroup.stellariamod1.mars": "Mars"

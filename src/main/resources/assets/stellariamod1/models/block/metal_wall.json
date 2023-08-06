@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+"textures": {
+"all": "stellariamod1:block/metal_wall"
+}
+}
