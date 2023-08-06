@@ -362,6 +362,11 @@ public class ModItems {
     public static final Item OGANESSON = registerItem("oganesson",
             new Item(new FabricItemSettings().group(ModItemGroup.ELEMENTS)));
 
+    public static final Item WIRE = registerItem("wire",
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPONENTS)));
+
+
+
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(StellariaMain.MOD_ID, name), item);
 
